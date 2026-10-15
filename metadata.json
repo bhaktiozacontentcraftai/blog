@@ -1,0 +1,6 @@
+{
+  "name": "The Growth Desk",
+  "description": "Practical Ideas for Business and Career Growth. In-depth, actionable guides on entrepreneurship, career advancement, resumes, interviews, productivity, and leadership.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
