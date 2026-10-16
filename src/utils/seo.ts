@@ -148,7 +148,7 @@ export function applyPageSeo(config: PageSeoConfig) {
  * Generates Schema.org graph for a blog post
  */
 export function buildArticleSchemas(article: Article): Record<string, unknown>[] {
-  const canonicalUrl = `${SITE_CONFIG.canonicalOrigin}/article/${article.slug}`;
+  const canonicalUrl = `${SITE_CONFIG.canonicalOrigin}/${article.slug}`;
   const categoryUrl = `${SITE_CONFIG.canonicalOrigin}/category/${article.category.toLowerCase()}`;
   const imageUrl = article.featuredImage.startsWith('http') 
     ? article.featuredImage 

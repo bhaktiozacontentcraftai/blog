@@ -44,7 +44,7 @@ export default function App() {
 
   // Parse path and hash to determine view and params
   const parseCurrentUrl = useCallback(() => {
-    // 1. Check pathname first (e.g. /article/slug or /category/business)
+    // 1. Check pathname first (e.g. /how-to-start-small-business or /category/business)
     const pathname = window.location.pathname.replace(/\/$/, '') || '/';
     const hash = window.location.hash.replace(/^#\/?/, '');
 
@@ -55,6 +55,11 @@ export default function App() {
       if (matched) {
         setCurrentArticleSlug(matched.slug);
         setCurrentView('article');
+        try {
+          window.history.replaceState(null, '', `/${matched.slug}`);
+        } catch {
+          // Ignore
+        }
         return;
       }
     } else if (pathname.startsWith('/category/')) {
@@ -84,6 +89,21 @@ export default function App() {
     } else if (pathname === '/toolkit') {
       setCurrentView('toolkit');
       return;
+    } else if (pathname !== '/') {
+      const slug = pathname.replace(/^\//, '').split('/')[0];
+      const matched = getArticleBySlug(slug);
+      if (matched) {
+        setCurrentArticleSlug(matched.slug);
+        setCurrentView('article');
+        if (slug !== matched.slug) {
+          try {
+            window.history.replaceState(null, '', `/${matched.slug}`);
+          } catch {
+            // Ignore
+          }
+        }
+        return;
+      }
     }
 
     // 2. Check hash fallback if pathname was root or matched nothing
@@ -111,6 +131,13 @@ export default function App() {
       } else if (['about', 'contact', 'privacy', 'saved', 'toolkit'].includes(hash)) {
         setCurrentView(hash);
         return;
+      } else {
+        const matched = getArticleBySlug(hash);
+        if (matched) {
+          setCurrentArticleSlug(matched.slug);
+          setCurrentView('article');
+          return;
+        }
       }
     }
 
@@ -177,7 +204,7 @@ export default function App() {
       applyPageSeo({
         title: art.seo.metaTitle,
         description: art.seo.metaDescription,
-        canonicalPath: `/article/${art.slug}`,
+        canonicalPath: `/${art.slug}`,
         ogType: 'article',
         ogImage: art.featuredImage,
         publishedTime: '2026-10-12T08:00:00+00:00',
@@ -262,7 +289,7 @@ export default function App() {
       const cleanSlug = art ? art.slug : params.slug;
       setCurrentArticleSlug(cleanSlug);
       setCurrentView('article');
-      targetPath = `/article/${cleanSlug}`;
+      targetPath = `/${cleanSlug}`;
     } else if (view === 'category' && params?.category) {
       setCurrentCategory(params.category);
       setCurrentView('category');

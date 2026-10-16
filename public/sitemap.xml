@@ -50,63 +50,63 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- 10 High-Authority Articles (Unique, Alphabetic, Keyword-Guided Slugs) -->
+  <!-- 10 High-Authority Articles (Clean, Unique, Alphabetic, Keyword-Guided Canonical Slugs) -->
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/how-to-start-small-business</loc>
+    <loc>https://blog-kxz2.vercel.app/how-to-start-small-business</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/how-to-write-resume</loc>
+    <loc>https://blog-kxz2.vercel.app/how-to-write-resume</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/side-hustles-after-work</loc>
+    <loc>https://blog-kxz2.vercel.app/side-hustles-after-work</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/job-interview-questions-and-answers</loc>
+    <loc>https://blog-kxz2.vercel.app/job-interview-questions-and-answers</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/common-business-mistakes-to-avoid</loc>
+    <loc>https://blog-kxz2.vercel.app/common-business-mistakes-to-avoid</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/in-demand-career-skills</loc>
+    <loc>https://blog-kxz2.vercel.app/in-demand-career-skills</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/how-to-become-better-leader</loc>
+    <loc>https://blog-kxz2.vercel.app/how-to-become-better-leader</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/how-to-find-freelance-clients</loc>
+    <loc>https://blog-kxz2.vercel.app/how-to-find-freelance-clients</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/time-management-strategies-for-professionals</loc>
+    <loc>https://blog-kxz2.vercel.app/time-management-strategies-for-professionals</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://blog-kxz2.vercel.app/article/how-to-build-career-development-plan</loc>
+    <loc>https://blog-kxz2.vercel.app/how-to-build-career-development-plan</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>

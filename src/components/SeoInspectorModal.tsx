@@ -27,7 +27,7 @@ export const SeoInspectorModal: React.FC<SeoInspectorModalProps> = ({
       description: article.seo.metaDescription,
       datePublished: '2026-10-10T08:00:00Z',
       dateModified: '2026-10-14T12:00:00Z',
-      mainEntityOfPage: `https://blog-kxz2.vercel.app/article/${article.slug}`,
+      mainEntityOfPage: `https://blog-kxz2.vercel.app/${article.slug}`,
       author: {
         '@type': 'Person',
         name: article.author.name,
@@ -98,7 +98,7 @@ export const SeoInspectorModal: React.FC<SeoInspectorModalProps> = ({
                 </div>
                 <div className="flex items-center gap-1">
                   <span className="text-slate-800 font-normal">blog-kxz2.vercel.app</span>
-                  <span className="text-slate-400">› article › {article.slug}</span>
+                  <span className="text-slate-400">› {article.slug}</span>
                 </div>
               </div>
               <h4 className="text-base sm:text-lg text-[#1a0dab] hover:underline cursor-pointer font-medium leading-snug">

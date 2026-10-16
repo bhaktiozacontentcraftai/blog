@@ -2,6 +2,153 @@
   "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/article/how-to-start",
+      "destination": "/how-to-start-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-start-small-business",
+      "destination": "/how-to-start-small-business",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-write-resume",
+      "destination": "/how-to-write-resume",
+      "permanent": true
+    },
+    {
+      "source": "/7-practical-side-hustles-after-work",
+      "destination": "/side-hustles-after-work",
+      "permanent": true
+    },
+    {
+      "source": "/article/7-practical-side-hustles-after-work",
+      "destination": "/side-hustles-after-work",
+      "permanent": true
+    },
+    {
+      "source": "/article/side-hustles-after-work",
+      "destination": "/side-hustles-after-work",
+      "permanent": true
+    },
+    {
+      "source": "/15-common-job-interview-questions",
+      "destination": "/job-interview-questions-and-answers",
+      "permanent": true
+    },
+    {
+      "source": "/article/15-common-job-interview-questions",
+      "destination": "/job-interview-questions-and-answers",
+      "permanent": true
+    },
+    {
+      "source": "/article/job-interview-questions-and-answers",
+      "destination": "/job-interview-questions-and-answers",
+      "permanent": true
+    },
+    {
+      "source": "/10-common-business-mistakes-entrepreneurs",
+      "destination": "/common-business-mistakes-to-avoid",
+      "permanent": true
+    },
+    {
+      "source": "/article/10-common-business-mistakes-entrepreneurs",
+      "destination": "/common-business-mistakes-to-avoid",
+      "permanent": true
+    },
+    {
+      "source": "/article/common-business-mistakes-to-avoid",
+      "destination": "/common-business-mistakes-to-avoid",
+      "permanent": true
+    },
+    {
+      "source": "/10-skills-to-improve-career-in-2027",
+      "destination": "/in-demand-career-skills",
+      "permanent": true
+    },
+    {
+      "source": "/10-skills-to-learn-to-improve-your-career-in-2027",
+      "destination": "/in-demand-career-skills",
+      "permanent": true
+    },
+    {
+      "source": "/article/10-skills-to-improve-career-in-2027",
+      "destination": "/in-demand-career-skills",
+      "permanent": true
+    },
+    {
+      "source": "/article/10-skills-to-learn-to-improve-your-career-in-2027",
+      "destination": "/in-demand-career-skills",
+      "permanent": true
+    },
+    {
+      "source": "/article/in-demand-career-skills",
+      "destination": "/in-demand-career-skills",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-become-a-better-leader-at-work",
+      "destination": "/how-to-become-better-leader",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-become-a-better-leader-at-work",
+      "destination": "/how-to-become-better-leader",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-become-better-leader",
+      "destination": "/how-to-become-better-leader",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-get-your-first-freelance-client",
+      "destination": "/how-to-find-freelance-clients",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-get-your-first-freelance-client",
+      "destination": "/how-to-find-freelance-clients",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-find-freelance-clients",
+      "destination": "/how-to-find-freelance-clients",
+      "permanent": true
+    },
+    {
+      "source": "/time-management-strategies-for-busy-professionals",
+      "destination": "/time-management-strategies-for-professionals",
+      "permanent": true
+    },
+    {
+      "source": "/article/time-management-strategies-for-busy-professionals",
+      "destination": "/time-management-strategies-for-professionals",
+      "permanent": true
+    },
+    {
+      "source": "/article/time-management-strategies-for-professionals",
+      "destination": "/time-management-strategies-for-professionals",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-build-a-career-development-plan-in-90-days",
+      "destination": "/how-to-build-career-development-plan",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-build-a-career-development-plan-in-90-days",
+      "destination": "/how-to-build-career-development-plan",
+      "permanent": true
+    },
+    {
+      "source": "/article/how-to-build-career-development-plan",
+      "destination": "/how-to-build-career-development-plan",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
