@@ -85,7 +85,7 @@ export const ARTICLES_PART_2: Article[] = [
         id: 'behavioral-questions',
         heading: '2. High-Stakes Behavioral Questions (STAR Method)',
         content: [
-          'Behavioral questions test how you actually acted in past real-world situations. Structure every answer using Situation (15%), Task (15%), Action (50%), and Result (20%).'
+          'Behavioral questions evaluate how you actually solved complex problems in real-world situations. Rigorous behavioral interview preparation relies on mastering the STAR interview method: structure every story using Situation (15%), Task (15%), Action (50%), and Result (20%).'
         ],
         subsections: [
           {
@@ -238,9 +238,9 @@ export const ARTICLES_PART_2: Article[] = [
     sections: [
       {
         id: 'financial-pitfalls',
-        heading: '1. Financial & Cash Flow Blunders',
+        heading: '1. Startup Cash Flow Management & Financial Pitfalls',
         content: [
-          'Profit is an accounting opinion; cash is an economic fact. Many profitable companies on paper have gone bankrupt simply because their cash was locked up when payroll was due.'
+          'Profit is an accounting opinion; cash is an economic reality. Mastering startup cash flow management and steering clear of early entrepreneur pricing pitfalls determines whether your business survives its formative years.'
         ],
         subsections: [
           {
@@ -412,9 +412,9 @@ export const ARTICLES_PART_2: Article[] = [
         subsections: [
           {
             id: 'skill-1-ai-literacy',
-            heading: '1. Practical AI Literacy & System Orchestration',
+            heading: '1. Workplace AI Literacy & System Orchestration',
             content: [
-              'AI literacy is no longer about asking a chatbot to write a generic email. It is about understanding how to integrate generative models into your department’s automated workflows, evaluating algorithmic hallucinations, and conducting automated QA on data pipelines.'
+              'Workplace AI literacy is no longer about asking a chatbot to write a generic email. It is about understanding how to integrate generative models into your department’s automated workflows, evaluating algorithmic hallucinations, and conducting automated QA on data pipelines.'
             ]
           },
           {
@@ -442,7 +442,7 @@ export const ARTICLES_PART_2: Article[] = [
         subsections: [
           {
             id: 'skill-4-persuasive-communication',
-            heading: '4. High-Stakes Written and Verbal Synthesis',
+            heading: '4. Executive Communication Skills & High-Stakes Synthesis',
             content: [
               'In distributed and hybrid workforces, crisp written memos that articulate complex proposals in under 500 words replace hours of unfocused meetings. Clear writing is clear thinking.'
             ]

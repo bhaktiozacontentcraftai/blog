@@ -28,17 +28,17 @@ export const ARTICLES_PART_3: Article[] = [
     sections: [
       {
         id: 'psychological-safety',
-        heading: '1. Cultivating Deep Psychological Safety',
+        heading: '1. Cultivating Team Psychological Safety',
         content: [
-          'Harvard Business School research has consistently demonstrated that the highest-performing teams are not those with the smartest individuals, but those with the highest degree of psychological safety—where members feel safe taking risks, admitting errors, and challenging assumptions without fear of ridicule or retribution.',
+          'Harvard Business School research has consistently demonstrated that the highest-performing teams are not those with the smartest individuals, but those with the highest degree of team psychological safety—where members feel safe taking risks, admitting errors, and challenging assumptions without fear of ridicule or retribution.',
           'To cultivate this environment as a leader, normalize intellectual humility: publicly share your own misjudgments, ask "What am I missing here?" during reviews, and treat honest mistakes as coaching opportunities rather than disciplinary offenses.'
         ]
       },
       {
         id: 'art-of-delegation',
-        heading: '2. The 5 Levels of Effective Delegation',
+        heading: '2. The 5 Levels of Effective Workplace Delegation',
         content: [
-          'Micromanagement occurs when leaders fail to match their level of oversight with the employee’s competence and confidence. Use this 5-stage delegation framework to grant autonomy responsibly:'
+          'Micromanagement occurs when leaders fail to match their level of oversight with the employee’s competence and confidence. Mastering effective workplace delegation allows you to grant autonomy responsibly across 5 distinct stages:'
         ],
         table: {
           headers: ['Level', 'Leader Directive', 'Employee Responsibility', 'Ideal For'],
@@ -156,17 +156,17 @@ export const ARTICLES_PART_3: Article[] = [
       },
       {
         id: 'pre-work-portfolio',
-        heading: '2. The "Pre-Work" Portfolio (No Prior Clients Needed)',
+        heading: '2. Building Portfolio Case Study Examples Without Prior Clients',
         content: [
-          'You do not need a paid client to showcase your capabilities. Pick three reputable companies in your target niche and produce unsolicited "spec" improvements.',
+          'You do not need an existing paid client to showcase your capabilities. High-converting portfolio case study examples can be created by picking three companies in your target niche and producing unsolicited "spec" improvements.',
           'For example: Redesign their checkout page, rewrite their top landing page headline, or diagnose why their site loads in 6.2 seconds. Put these 3 teardown case studies on a clean Notion page or simple portfolio site. You now possess undeniable proof of work.'
         ]
       },
       {
         id: 'personalized-outreach',
-        heading: '3. The "Pain-Point Teardown" Outreach Script',
+        heading: '3. Strategic Freelance Cold Outreach That Converts',
         content: [
-          'Throw away generic copy-pasted cold templates. Instead, send a 90-second customized video or 4-sentence diagnostic email directly to the decision-maker:'
+          'Throw away generic copy-pasted cold templates. Successful freelance cold outreach relies on sending a 90-second customized video or 4-sentence diagnostic email directly to the decision-maker:'
         ],
         callout: {
           type: 'quote',
@@ -251,9 +251,9 @@ export const ARTICLES_PART_3: Article[] = [
     sections: [
       {
         id: 'time-blocking-architecture',
-        heading: '1. The 3-Tier Time-Blocking Architecture',
+        heading: '1. Workday Calendar Management & Time-Blocking Architecture',
         content: [
-          'To-do lists fail because they tell you what to do without establishing when you will do it. A calendar-first time-blocking system anchors every priority to a dedicated chronological window.'
+          'To-do lists fail because they list tasks without establishing when they will be executed. Mastering workday calendar management and deep work productivity requires a calendar-first time-blocking system that anchors every priority to a dedicated chronological window.'
         ],
         table: {
           headers: ['Block Type', 'Time Window', 'Rules of Engagement', 'Primary Activities'],
@@ -358,14 +358,14 @@ export const ARTICLES_PART_3: Article[] = [
     introParagraphs: [
       'The professionals who rise rapidly through organizations do not simply do good work and hope someone notices. They treat their career as an enterprise—with quarterly objectives, product development milestones, and targeted marketing campaigns.',
       'Relying on the standard annual performance review is inherently flawed. By the time your 12-month review meeting arrives, departmental compensation pools and promotion quotas have already been locked in months in advance.',
-      'A 90-day career development plan is the sweet spot of strategic execution: long enough to acquire demonstrable skills and ship visible projects, but short enough to maintain relentless daily focus. Here is your week-by-week implementation blueprint.'
+      'A 90-day career development plan is the cornerstone of any high-impact career advancement strategy. By providing a clear professional goal roadmap, it ensures you acquire demonstrable skills, ship visible projects, and maintain relentless daily focus. Here is your week-by-week implementation blueprint.'
     ],
     sections: [
       {
         id: 'phase-1-audit',
-        heading: 'Phase 1: Days 1–30 – The Competency & Perception Audit',
+        heading: 'Phase 1: Days 1–30 – Professional Goal Roadmap & Competency Audit',
         content: [
-          'Before setting lofty goals, you must establish an honest baseline of where you currently stand in the market and within your organization.'
+          'Before setting ambitious goals, you must establish an honest baseline of where you currently stand in the market and within your organization.'
         ],
         subsections: [
           {
