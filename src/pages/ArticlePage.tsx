@@ -110,10 +110,11 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
         
         {/* Breadcrumb & Navigation */}
         <div className="flex items-center justify-between gap-4 mb-6 text-xs text-slate-500">
-          <div className="flex items-center gap-2 truncate">
+          <nav aria-label="Breadcrumb" className="flex items-center gap-2 truncate">
             <button
               onClick={() => onNavigate('home')}
               className="hover:text-slate-900 transition-colors flex items-center gap-1 shrink-0"
+              aria-label="Navigate back to all articles on homepage"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               <span>Back to Articles</span>
@@ -122,12 +123,13 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
             <button
               onClick={() => onNavigate('category', { category: article.category })}
               className="hover:text-slate-900 transition-colors shrink-0"
+              aria-label={`View articles in ${article.category}`}
             >
               {article.category}
             </button>
             <span aria-hidden="true" className="hidden sm:inline">/</span>
-            <span className="hidden sm:inline text-slate-400 truncate">{article.title}</span>
-          </div>
+            <span className="hidden sm:inline text-slate-400 truncate" aria-current="page">{article.title}</span>
+          </nav>
 
           {/* Quick Inspector CTA */}
           <button
@@ -233,13 +235,16 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
         </header>
 
         {/* 3. Featured Image */}
-        <div className="max-w-4xl mx-auto mb-12">
+        <figure className="max-w-4xl mx-auto mb-12">
           <div className="rounded-2xl overflow-hidden border border-slate-200/90 shadow-md bg-slate-900 aspect-16/9">
             {!imgError && article.featuredImage ? (
               <img
                 src={article.featuredImage}
                 alt={article.imageAlt}
-                referrerPolicy="no-referrer"
+                width={1200}
+                height={675}
+                loading="eager"
+                fetchPriority="high"
                 onError={() => setImgError(true)}
                 className="w-full h-full object-cover"
               />
@@ -251,16 +256,16 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               </div>
             )}
           </div>
-          <p className="text-[11px] text-slate-500 italic mt-2 text-center">
+          <figcaption className="text-[11px] text-slate-500 italic mt-2 text-center">
             {article.imageAlt}
-          </p>
-        </div>
+          </figcaption>
+        </figure>
 
         {/* 4. Two-Column Asymmetric Reading Layout */}
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
           
           {/* Main Article Body (Column 1: approx 70% on desktop) */}
-          <main className="lg:col-span-8 max-w-prose mx-auto lg:mx-0 w-full">
+          <article className="lg:col-span-8 max-w-prose mx-auto lg:mx-0 w-full">
             <div className={`space-y-8 text-slate-800 ${fontSize === 'large' ? 'text-lg leading-relaxed' : 'text-base leading-relaxed'} ${proseFont === 'serif' ? 'font-serif' : 'font-sans'}`}>
               
               {/* Introduction paragraphs with initial drop cap */}
@@ -474,7 +479,7 @@ export const ArticlePage: React.FC<ArticlePageProps> = ({
               <CommentsSection articleSlug={article.slug} />
 
             </div>
-          </main>
+          </article>
 
           {/* Sticky Sidebar (Column 2: approx 30% on desktop) */}
           <aside className="lg:col-span-4 space-y-8">

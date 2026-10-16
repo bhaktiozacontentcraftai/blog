@@ -4,7 +4,7 @@ import { AUTHORS } from './authors';
 export const ARTICLES_PART_1: Article[] = [
   {
     id: 'start-small-business-little-money',
-    slug: 'how-to-start-a-small-business-with-little-money',
+    slug: 'how-to-start-small-business',
     title: 'How to Start a Small Business With Little Money: A Step-by-Step Blueprint',
     subtitle: 'Validate your concept, protect your personal finances, and acquire your first paying customers without taking on outside debt.',
     excerpt: 'Starting a profitable business does not require venture capital or a massive savings account. Learn how to identify low-overhead business models, conduct budget market research, and acquire initial customers using lean principles.',
@@ -12,12 +12,12 @@ export const ARTICLES_PART_1: Article[] = [
     subCategory: 'Entrepreneurship & Bootstrapping',
     readTime: '9 min read',
     publishDate: 'October 12, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: true,
     trending: true,
     author: AUTHORS.elena,
-    featuredImage: '/src/assets/images/business_startup_budget_1792032643799.jpg',
-    imageAlt: 'Flat lay of an entrepreneur business planning desk with financial ledger, revenue chart tablet, and notebook',
+    featuredImage: '/src/assets/images/business-startup-budget.webp',
+    imageAlt: 'Small business owner reviewing startup budget ledgers and financial performance on a wooden desk',
     imageConcept: 'Clean editorial flat-lay photo of an entrepreneur planning desk with financial ledger, modern tablet displaying clean growth charts, ceramic cup of black coffee, soft diffused natural daylight',
     tags: ['Startup', 'Bootstrapping', 'Small Business', 'Lean Strategy', 'Customer Acquisition'],
     introParagraphs: [
@@ -124,27 +124,27 @@ export const ARTICLES_PART_1: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: '10-common-business-mistakes-new-entrepreneurs-should-avoid',
+        targetSlug: 'common-business-mistakes-to-avoid',
         title: '10 Common Business Mistakes New Entrepreneurs Should Avoid',
         context: 'Review essential financial pitfalls to sidestep once your early revenue begins flowing.'
       },
       {
-        targetSlug: 'how-to-get-your-first-freelance-client',
+        targetSlug: 'how-to-find-freelance-clients',
         title: 'How to Get Your First Freelance Client',
         context: 'Follow our exact outreach script templates to convert warm contacts into closed deals.'
       }
     ],
     seo: {
-      metaTitle: 'How to Start a Small Business With Little Money (Complete Guide)',
-      metaDescription: 'Discover how to start a profitable small business on a shoestring budget. Learn low-capital business models, free market research, and lean customer acquisition.',
-      primaryKeyword: 'how to start a small business with little money',
-      secondaryKeywords: ['bootstrap small business', 'low cost business ideas', 'lean startup guide', 'start business on a budget', 'zero capital entrepreneurship'],
-      suggestedSlug: 'how-to-start-a-small-business-with-little-money'
+      metaTitle: 'How to Start a Small Business: Low-Cost Startup Blueprint',
+      metaDescription: 'Learn how to start a small business with little money. Discover low-cost startup ideas, lean business planning, and how to acquire paying customers.',
+      primaryKeyword: 'how to start small business',
+      secondaryKeywords: ['low cost startup ideas', 'lean business planning'],
+      suggestedSlug: 'how-to-start-small-business'
     }
   },
   {
     id: 'write-resume-gets-noticed',
-    slug: 'how-to-write-a-resume-that-gets-you-noticed',
+    slug: 'how-to-write-resume',
     title: 'How to Write a Resume That Gets You Noticed in 2027: The Complete Guide',
     subtitle: 'Beat modern applicant tracking systems (ATS), capture recruiter attention in 6 seconds, and convert job applications into high-paying interviews.',
     excerpt: 'Most resumes end up in the digital black hole because they read like dry job descriptions rather than compelling career portfolios. Learn the anatomy of modern high-converting resumes with real before-and-after examples.',
@@ -152,12 +152,12 @@ export const ARTICLES_PART_1: Article[] = [
     subCategory: 'Job Search & Resumes',
     readTime: '10 min read',
     publishDate: 'October 11, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: true,
     author: AUTHORS.marcus,
-    featuredImage: '/src/assets/images/career_interview_meeting_1792032642390.jpg',
-    imageAlt: 'Recruiter and candidate reviewing professional credentials during an executive job interview',
+    featuredImage: '/src/assets/images/career-interview-meeting.webp',
+    imageAlt: 'Job applicant and executive hiring manager discussing resume achievements in a modern office',
     imageConcept: 'Contemporary architectural office interior with two professionals in smart business attire engaged in a confident, friendly career conversation, bright floor-to-ceiling windows, natural soft lighting',
     tags: ['Resume Writing', 'Career Growth', 'ATS Optimization', 'Job Hunting', 'Executive Search'],
     introParagraphs: [
@@ -246,27 +246,27 @@ export const ARTICLES_PART_1: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: '15-common-job-interview-questions-and-how-to-answer-them',
+        targetSlug: 'job-interview-questions-and-answers',
         title: '15 Common Job Interview Questions and How to Answer Them',
         context: 'Once your revamped resume lands the interview, master behavioral question frameworks.'
       },
       {
-        targetSlug: 'how-to-build-a-career-development-plan-in-90-days',
+        targetSlug: 'how-to-build-career-development-plan',
         title: 'How to Build a Career Development Plan in 90 Days',
         context: 'Map your career achievements into long-term strategic promotion goals.'
       }
     ],
     seo: {
-      metaTitle: 'How to Write a Resume That Gets You Noticed (2027 ATS Guide)',
-      metaDescription: 'Learn how to write a high-converting resume that beats ATS filters and gets callbacks. Includes modern structure, XYZ achievement formulas, and executive summary examples.',
-      primaryKeyword: 'how to write a resume that gets you noticed',
-      secondaryKeywords: ['resume writing guide', 'ATS resume formatting', 'resume achievement bullets', 'job application tips', 'executive summary examples'],
-      suggestedSlug: 'how-to-write-a-resume-that-gets-you-noticed'
+      metaTitle: 'How to Write a Resume That Gets You Noticed | The Growth Desk',
+      metaDescription: 'Learn how to write a resume that captures recruiter attention. Master ATS resume formatting and achievement-based bullets to land more job interviews.',
+      primaryKeyword: 'how to write a resume',
+      secondaryKeywords: ['ats resume formatting', 'achievement based resume bullets'],
+      suggestedSlug: 'how-to-write-resume'
     }
   },
   {
     id: '7-practical-side-hustles-after-work',
-    slug: '7-practical-side-hustles-you-can-start-after-work',
+    slug: 'side-hustles-after-work',
     title: '7 Practical Side Hustles You Can Start After Work Without Burning Out',
     subtitle: 'Generate an extra $1,000 to $4,000 per month by monetizing skills you already possess during evening and weekend hours.',
     excerpt: 'Looking to build secondary income streams without jeopardizing your 9-to-5 job? Discover 7 realistic, high-margin side hustles that require zero inventory, fit into 8-12 hours per week, and can scale into full-time businesses.',
@@ -274,12 +274,12 @@ export const ARTICLES_PART_1: Article[] = [
     subCategory: 'Side Hustles & Freelancing',
     readTime: '11 min read',
     publishDate: 'October 10, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: true,
     author: AUTHORS.elena,
-    featuredImage: '/src/assets/images/hero_business_desk_1792032643071.jpg',
-    imageAlt: 'Evening professional desk with laptop, warm desk lamp, notebook, and planner for after-hours side business',
+    featuredImage: '/src/assets/images/hero-business-desk.webp',
+    imageAlt: 'Evening workstation with laptop, planner, and notebook organized for an after-work side business',
     imageConcept: 'High-end editorial photograph of a modern executive workspace, deep navy leather notebook, sleek laptop, brass fountain pen, warm morning window light casting subtle shadows, crisp minimalist architectural aesthetic',
     tags: ['Side Hustle', 'Passive Income', 'Freelancing', 'Remote Work', 'Work-Life Balance'],
     introParagraphs: [
@@ -387,22 +387,22 @@ export const ARTICLES_PART_1: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: 'how-to-start-a-small-business-with-little-money',
+        targetSlug: 'how-to-start-small-business',
         title: 'How to Start a Small Business With Little Money',
         context: 'Discover how to scale your side hustle into a formal, self-sustaining business entity.'
       },
       {
-        targetSlug: 'time-management-strategies-for-busy-professionals',
+        targetSlug: 'time-management-strategies-for-professionals',
         title: 'Time Management Strategies for Busy Professionals',
         context: 'Master time blocking to carve out 10 productive side hours per week without burnout.'
       }
     ],
     seo: {
-      metaTitle: '7 Practical Side Hustles You Can Start After Work (2027)',
-      metaDescription: 'Discover 7 high-margin side hustles to build after your 9-to-5 job. Earn $1,000 to $4,000/month with zero inventory and anti-burnout scheduling systems.',
-      primaryKeyword: 'practical side hustles you can start after work',
-      secondaryKeywords: ['side hustle ideas for professionals', 'after work business', 'high margin freelance ideas', 'earn extra income after work', 'remote side gigs'],
-      suggestedSlug: '7-practical-side-hustles-you-can-start-after-work'
+      metaTitle: 'Practical Side Hustles After Work | The Growth Desk Guide',
+      metaDescription: 'Discover realistic side hustles after work to build extra income. Explore evening business ideas and high-margin freelance services without burnout.',
+      primaryKeyword: 'side hustles after work',
+      secondaryKeywords: ['evening business ideas', 'high margin freelance services'],
+      suggestedSlug: 'side-hustles-after-work'
     }
   }
 ];

@@ -35,7 +35,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
             <img
               src={article.featuredImage}
               alt={article.imageAlt}
-              referrerPolicy="no-referrer"
+              width={800}
+              height={450}
+              loading="eager"
               onError={() => setImgError(true)}
               className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500 ease-out"
             />
@@ -157,7 +159,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
             <img
               src={article.featuredImage}
               alt={article.imageAlt}
-              referrerPolicy="no-referrer"
+              width={600}
+              height={375}
+              loading="lazy"
               onError={() => setImgError(true)}
               className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-400 ease-out"
             />

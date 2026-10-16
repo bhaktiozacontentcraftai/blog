@@ -31,15 +31,15 @@ export const CategoryPage: React.FC<CategoryPageProps> = ({
 
   const categoryDescriptions: Record<BlogCategory, { tagline: string; description: string }> = {
     Business: {
-      tagline: 'Entrepreneurship & Small Business Growth',
+      tagline: 'Business & Startup Strategies: Entrepreneurship & Growth',
       description: 'Battle-tested frameworks on bootstrapping low-overhead ventures, managing cash flow, acquiring paying clients, and avoiding fatal startup pitfalls.',
     },
     Career: {
-      tagline: 'Job Search, Resumes & Executive Trajectories',
-      description: 'Data-backed blueprints for beating ATS parsers, commanding high-stakes interviews, mastering salary negotiations, and engineering 90-day promotions.',
+      tagline: 'Career Development & Job Search: Resumes & Interview Mastery',
+      description: 'Data-backed blueprints for beating ATS parsers, commanding high-stakes interviews, mastering salary negotiations, and engineering strategic career growth.',
     },
     Productivity: {
-      tagline: 'Time Management, Leadership & Deep Work',
+      tagline: 'Workplace Productivity & Leadership: Time Management Playbooks',
       description: 'Executive playbooks for eliminating workday friction, mastering the 5 levels of delegation, protecting deep work focus, and preventing burnout.',
     },
   };
@@ -49,15 +49,20 @@ export const CategoryPage: React.FC<CategoryPageProps> = ({
       
       {/* Category Header */}
       <div className="space-y-4 max-w-3xl">
-        <button
-          onClick={onNavigateHome}
-          className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-900 transition-colors"
-        >
-          <ArrowLeft className="w-3.5 h-3.5" />
-          <span>Home</span>
-          <span aria-hidden="true">/</span>
-          <span>Categories</span>
-        </button>
+        <nav aria-label="Breadcrumb">
+          <button
+            onClick={onNavigateHome}
+            className="inline-flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-900 transition-colors"
+            aria-label="Return to homepage"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Home</span>
+            <span aria-hidden="true">/</span>
+            <span>Categories</span>
+            <span aria-hidden="true">/</span>
+            <span className="text-slate-900 font-semibold" aria-current="page">{category}</span>
+          </button>
+        </nav>
 
         <div className="space-y-2">
           <div className="flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-amber-700">

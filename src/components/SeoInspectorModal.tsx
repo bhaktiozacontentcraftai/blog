@@ -27,7 +27,7 @@ export const SeoInspectorModal: React.FC<SeoInspectorModalProps> = ({
       description: article.seo.metaDescription,
       datePublished: '2026-10-10T08:00:00Z',
       dateModified: '2026-10-14T12:00:00Z',
-      mainEntityOfPage: `https://thegrowthdesk.com/${article.seo.suggestedSlug}`,
+      mainEntityOfPage: `https://blog-kxz2.vercel.app/article/${article.slug}`,
       author: {
         '@type': 'Person',
         name: article.author.name,
@@ -35,14 +35,15 @@ export const SeoInspectorModal: React.FC<SeoInspectorModalProps> = ({
       },
       publisher: {
         '@type': 'Organization',
-        name: 'The Growth Desk',
+        name: 'The Growth Desk Editorial Board',
+        url: 'https://blog-kxz2.vercel.app',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://thegrowthdesk.com/logo.png',
+          url: 'https://blog-kxz2.vercel.app/src/assets/images/hero-business-desk.webp',
         },
       },
       keywords: [article.seo.primaryKeyword, ...article.seo.secondaryKeywords].join(', '),
-      image: article.featuredImage,
+      image: `https://blog-kxz2.vercel.app${article.featuredImage}`,
     },
     null,
     2
@@ -96,8 +97,8 @@ export const SeoInspectorModal: React.FC<SeoInspectorModalProps> = ({
                   G
                 </div>
                 <div className="flex items-center gap-1">
-                  <span className="text-slate-800 font-normal">thegrowthdesk.com</span>
-                  <span className="text-slate-400">› {article.category.toLowerCase()} › {article.seo.suggestedSlug}</span>
+                  <span className="text-slate-800 font-normal">blog-kxz2.vercel.app</span>
+                  <span className="text-slate-400">› article › {article.slug}</span>
                 </div>
               </div>
               <h4 className="text-base sm:text-lg text-[#1a0dab] hover:underline cursor-pointer font-medium leading-snug">

@@ -95,9 +95,12 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-lg aspect-4/3 bg-slate-900 group">
                 <img
-                  src="/src/assets/images/hero_business_desk_1792032643071.jpg"
-                  alt="Modern executive desk workspace with notebook, laptop and brass pen"
-                  referrerPolicy="no-referrer"
+                  src="/src/assets/images/hero-business-desk.webp"
+                  alt="Modern executive desk workspace with leather notebook, laptop and brass pen"
+                  width={640}
+                  height={480}
+                  loading="eager"
+                  fetchPriority="high"
                   className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 flex flex-col justify-end text-white">

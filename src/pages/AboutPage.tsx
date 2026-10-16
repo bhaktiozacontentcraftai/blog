@@ -97,8 +97,19 @@ export const AboutPage: React.FC<AboutPageProps> = ({
               className="bg-white rounded-2xl border border-slate-200 p-6 space-y-4 shadow-xs"
             >
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-slate-900 text-amber-400 font-serif font-bold text-lg flex items-center justify-center shrink-0">
-                  {author.name.charAt(0)}
+                <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-900 text-amber-400 font-serif font-bold text-lg flex items-center justify-center shrink-0 border border-slate-200">
+                  <img
+                    src={author.avatar}
+                    alt={`${author.name} - ${author.role}`}
+                    width={48}
+                    height={48}
+                    loading="lazy"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLElement).style.display = 'none';
+                    }}
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="text-amber-400 font-bold">{author.name.charAt(0)}</span>
                 </div>
                 <div>
                   <h3 className="text-sm font-bold text-slate-900">{author.name}</h3>

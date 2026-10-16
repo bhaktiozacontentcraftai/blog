@@ -4,7 +4,7 @@ import { AUTHORS } from './authors';
 export const ARTICLES_PART_3: Article[] = [
   {
     id: 'how-to-become-better-leader-work',
-    slug: 'how-to-become-a-better-leader-at-work',
+    slug: 'how-to-become-better-leader',
     title: 'How to Become a Better Leader at Work: The Modern Management Playbook',
     subtitle: 'Move from individual contributor to high-trust leader by mastering psychological safety, decisive delegation, and transparent communication.',
     excerpt: 'True leadership is not an executive title or corner office—it is the deliberate practice of elevating the performance and confidence of those around you. Learn the exact habits of respected, high-output workplace leaders.',
@@ -12,12 +12,12 @@ export const ARTICLES_PART_3: Article[] = [
     subCategory: 'Leadership & Team Dynamics',
     readTime: '10 min read',
     publishDate: 'October 6, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: false,
     author: AUTHORS.priya,
-    featuredImage: '/src/assets/images/career_interview_meeting_1792032642390.jpg',
-    imageAlt: 'Empathetic team leader guiding colleagues through a collaborative strategic planning session',
+    featuredImage: '/src/assets/images/career-interview-meeting.webp',
+    imageAlt: 'Team leader guiding a collaborative strategy discussion in a bright modern office',
     imageConcept: 'Contemporary architectural office interior with two professionals in smart business attire engaged in a confident, friendly career conversation, bright floor-to-ceiling windows, natural soft lighting',
     tags: ['Leadership', 'Management', 'Team Dynamics', 'Delegation', 'Executive Coaching'],
     introParagraphs: [
@@ -96,27 +96,27 @@ export const ARTICLES_PART_3: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: '10-skills-to-learn-to-improve-your-career-in-2027',
+        targetSlug: 'in-demand-career-skills',
         title: '10 Skills to Learn to Improve Your Career in 2027',
         context: 'Explore how interpersonal influence and emotional intelligence elevate leadership.'
       },
       {
-        targetSlug: 'time-management-strategies-for-busy-professionals',
+        targetSlug: 'time-management-strategies-for-professionals',
         title: 'Time Management Strategies for Busy Professionals',
         context: 'Master executive calendar management so you have time for team mentorship.'
       }
     ],
     seo: {
-      metaTitle: 'How to Become a Better Leader at Work: Modern Management Guide',
-      metaDescription: 'Learn how to become an exceptional workplace leader. Master psychological safety, the 5 levels of delegation, SBI feedback, and executive decision-making.',
-      primaryKeyword: 'how to become a better leader at work',
-      secondaryKeywords: ['leadership skills in the workplace', 'management best practices', 'effective delegation framework', 'constructive feedback SBI', 'first time manager advice'],
-      suggestedSlug: 'how-to-become-a-better-leader-at-work'
+      metaTitle: 'How to Become a Better Leader at Work | The Growth Desk',
+      metaDescription: 'Learn how to become a better leader at work. Master effective workplace delegation, team psychological safety, and decisive management habits.',
+      primaryKeyword: 'how to become a better leader',
+      secondaryKeywords: ['effective workplace delegation', 'team psychological safety'],
+      suggestedSlug: 'how-to-become-better-leader'
     }
   },
   {
     id: 'how-to-get-first-freelance-client',
-    slug: 'how-to-get-your-first-freelance-client',
+    slug: 'how-to-find-freelance-clients',
     title: 'How to Get Your First Freelance Client: The Zero-Audience Outreach Playbook',
     subtitle: 'Land high-paying client contracts in under 30 days without bidding on cutthroat marketplaces like Upwork or Fiverr.',
     excerpt: 'The biggest obstacle to launching a freelance business is securing your very first paying contract. Learn how to package an irresistible offer, build a proof-of-concept portfolio, and execute personalized outreach that converts.',
@@ -124,12 +124,12 @@ export const ARTICLES_PART_3: Article[] = [
     subCategory: 'Freelancing & Client Acquisition',
     readTime: '10 min read',
     publishDate: 'October 5, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: false,
     author: AUTHORS.elena,
-    featuredImage: '/src/assets/images/hero_business_desk_1792032643071.jpg',
-    imageAlt: 'Freelance professional reviewing client project proposals and contracts in a sleek workspace',
+    featuredImage: '/src/assets/images/hero-business-desk.webp',
+    imageAlt: 'Freelance consultant reviewing client project contracts and proposals at a clean desk',
     imageConcept: 'High-end editorial photograph of a modern executive workspace, deep navy leather notebook, sleek laptop, brass fountain pen, warm morning window light casting subtle shadows, crisp minimalist architectural aesthetic',
     tags: ['Freelancing', 'Client Acquisition', 'Cold Outreach', 'Sales', 'Consulting'],
     introParagraphs: [
@@ -207,27 +207,27 @@ export const ARTICLES_PART_3: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: '7-practical-side-hustles-you-can-start-after-work',
+        targetSlug: 'side-hustles-after-work',
         title: '7 Practical Side Hustles You Can Start After Work',
         context: 'Explore high-margin freelance service models suitable for after-hours work.'
       },
       {
-        targetSlug: 'how-to-start-a-small-business-with-little-money',
+        targetSlug: 'how-to-start-small-business',
         title: 'How to Start a Small Business With Little Money',
         context: 'Set up low-cost invoicing, contracts, and banking for your freelance practice.'
       }
     ],
     seo: {
-      metaTitle: 'How to Get Your First Freelance Client in 30 Days (No Upwork)',
-      metaDescription: 'Step-by-step playbook to sign your first high-paying freelance client without bidding sites. Learn offer packaging, cold outreach scripts, and spec portfolios.',
-      primaryKeyword: 'how to get your first freelance client',
-      secondaryKeywords: ['get freelance clients fast', 'freelance cold outreach', 'freelance portfolio without experience', 'find freelance work', 'client acquisition for freelancers'],
-      suggestedSlug: 'how-to-get-your-first-freelance-client'
+      metaTitle: 'How to Find Freelance Clients (Step-by-Step Playbook)',
+      metaDescription: 'Discover how to find freelance clients without bidding platforms. Master freelance cold outreach and build spec portfolio case study examples that convert.',
+      primaryKeyword: 'how to find freelance clients',
+      secondaryKeywords: ['freelance cold outreach', 'portfolio case study examples'],
+      suggestedSlug: 'how-to-find-freelance-clients'
     }
   },
   {
     id: 'time-management-strategies-busy-professionals',
-    slug: 'time-management-strategies-for-busy-professionals',
+    slug: 'time-management-strategies-for-professionals',
     title: 'Time Management Strategies for Busy Professionals: Master Deep Work and Eliminate Distraction',
     subtitle: 'Reclaim 15 hours of fragmented weekly calendar time with time-blocking architectures, asynchronous rhythms, and proactive boundary design.',
     excerpt: 'Being busy is not the same as being effective. Modern knowledge workers are drowning in context-switching, notifications, and unnecessary meetings. Master tactical time management strategies that protect deep focus.',
@@ -235,11 +235,11 @@ export const ARTICLES_PART_3: Article[] = [
     subCategory: 'Executive Efficiency & Focus',
     readTime: '11 min read',
     publishDate: 'October 4, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: true,
     author: AUTHORS.priya,
-    featuredImage: '/src/assets/images/productivity_time_clock_1792032643000.jpg',
+    featuredImage: '/src/assets/images/productivity-time-clock.webp',
     imageAlt: 'Structured analog clock and daily time blocking executive planner on an organized wooden desk',
     imageConcept: 'Minimalist designer desk setup featuring an elegant brass desk clock, structured productivity planner book with notes, warm oak wood desk, crisp morning shadows, editorial magazine photography',
     tags: ['Time Management', 'Productivity', 'Deep Work', 'Focus', 'Work-Life Balance', 'Calendar Audit'],
@@ -319,39 +319,39 @@ export const ARTICLES_PART_3: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: 'how-to-become-a-better-leader-at-work',
+        targetSlug: 'how-to-become-better-leader',
         title: 'How to Become a Better Leader at Work',
         context: 'Learn how effective delegation frees up hours on your executive calendar.'
       },
       {
-        targetSlug: '10-skills-to-learn-to-improve-your-career-in-2027',
-        title: '10 Skills to Learn to Improve Your Career in 2027',
+        targetSlug: 'in-demand-career-skills',
+        title: '10 In-Demand Skills to Accelerate Your Career',
         context: 'Channel your newly recovered deep work hours into mastering future-proof skills.'
       }
     ],
     seo: {
-      metaTitle: 'Time Management Strategies for Busy Professionals (Deep Work Guide)',
-      metaDescription: 'Reclaim 15 hours per week with proven time-management strategies. Master time blocking, the Eisenhower Matrix, asynchronous workflows, and deep work focus.',
-      primaryKeyword: 'time management strategies for busy professionals',
-      secondaryKeywords: ['time blocking productivity', 'deep work for executives', 'how to manage time at work', 'calendar audit techniques', 'eliminate workday distractions'],
-      suggestedSlug: 'time-management-strategies-for-busy-professionals'
+      metaTitle: 'Time Management for Professionals | The Growth Desk',
+      metaDescription: 'Reclaim 15 hours per week with proven time management strategies for professionals. Master deep work productivity, time blocking, and calendar management.',
+      primaryKeyword: 'time management for professionals',
+      secondaryKeywords: ['deep work productivity', 'workday calendar management'],
+      suggestedSlug: 'time-management-strategies-for-professionals'
     }
   },
   {
-    id: 'career-development-plan-90-days',
-    slug: 'how-to-build-a-career-development-plan-in-90-days',
-    title: 'How to Build a Career Development Plan in 90 Days: A Step-by-Step Blueprint',
+    id: 'career-development-plan-blueprint',
+    slug: 'how-to-build-career-development-plan',
+    title: 'How to Build a Career Development Plan: A Step-by-Step Blueprint',
     subtitle: 'Audit your core competencies, close skill gaps, expand strategic network capital, and engineer your next promotion or lateral transition.',
-    excerpt: 'Hoping for a promotion or waiting for annual performance reviews is a passive career strategy. Take proactive control of your professional trajectory with a high-impact, 90-day career roadmap designed for measurable outcomes.',
+    excerpt: 'Hoping for a promotion or waiting for annual performance reviews is a passive career strategy. Take proactive control of your professional trajectory with a high-impact career roadmap designed for measurable outcomes.',
     category: 'Career',
     subCategory: 'Career Planning & Advancement',
     readTime: '12 min read',
     publishDate: 'October 3, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: true,
     author: AUTHORS.marcus,
-    featuredImage: '/src/assets/images/career_interview_meeting_1792032642390.jpg',
+    featuredImage: '/src/assets/images/career-interview-meeting.webp',
     imageAlt: 'Executive mentor and ambitious professional charting out a 90-day career roadmap on a modern whiteboard',
     imageConcept: 'Contemporary architectural office interior with two professionals in smart business attire engaged in a confident, friendly career conversation, bright floor-to-ceiling windows, natural soft lighting',
     tags: ['Career Plan', 'Career Growth', 'Promotion Strategy', 'Networking', 'Professional Goals'],
@@ -446,22 +446,22 @@ export const ARTICLES_PART_3: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: '10-skills-to-learn-to-improve-your-career-in-2027',
-        title: '10 Skills to Learn to Improve Your Career in 2027',
-        context: 'Select the high-impact skills to focus on during your Days 31–60 skill sprint.'
+        targetSlug: 'in-demand-career-skills',
+        title: '10 In-Demand Skills to Accelerate Your Career',
+        context: 'Select the high-impact skills to focus on during your skill development sprint.'
       },
       {
-        targetSlug: 'how-to-write-a-resume-that-gets-you-noticed',
+        targetSlug: 'how-to-write-resume',
         title: 'How to Write a Resume That Gets You Noticed',
-        context: 'Translate your 90-day project wins into compelling XYZ resume bullets.'
+        context: 'Translate your strategic project wins into compelling achievement-based resume bullets.'
       }
     ],
     seo: {
-      metaTitle: 'How to Build a Career Development Plan in 90 Days (Step-by-Step)',
-      metaDescription: 'Take control of your promotion and salary trajectory with a high-impact 90-day career development blueprint. Master skill sprints, executive sponsorship, and manager alignment.',
-      primaryKeyword: 'how to build a career development plan in 90 days',
-      secondaryKeywords: ['career development plan template', '90 day career roadmap', 'how to get promoted fast', 'professional development plan', 'career progression strategy'],
-      suggestedSlug: 'how-to-build-a-career-development-plan-in-90-days'
+      metaTitle: 'Career Development Plan Blueprint | The Growth Desk',
+      metaDescription: 'Take control of your salary and promotion trajectory with a career development plan. Build your professional goal roadmap and career advancement strategy.',
+      primaryKeyword: 'career development plan',
+      secondaryKeywords: ['professional goal roadmap', 'career advancement strategy'],
+      suggestedSlug: 'how-to-build-career-development-plan'
     }
   }
 ];

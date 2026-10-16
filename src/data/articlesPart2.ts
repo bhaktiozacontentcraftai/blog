@@ -4,7 +4,7 @@ import { AUTHORS } from './authors';
 export const ARTICLES_PART_2: Article[] = [
   {
     id: '15-common-job-interview-questions',
-    slug: '15-common-job-interview-questions-and-how-to-answer-them',
+    slug: 'job-interview-questions-and-answers',
     title: '15 Common Job Interview Questions and How to Answer Them (With Word-for-Word Scripts)',
     subtitle: 'Master the behavioral STAR framework, disarm difficult curveball questions, and project executive poise in any hiring panel.',
     excerpt: 'Interviews are not tests of memory; they are strategic evaluations of clarity, self-awareness, and business acumen. Discover how to answer the 15 most frequent interview questions with battle-tested sample responses.',
@@ -12,11 +12,11 @@ export const ARTICLES_PART_2: Article[] = [
     subCategory: 'Interviews & Negotiations',
     readTime: '13 min read',
     publishDate: 'October 9, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: true,
     author: AUTHORS.marcus,
-    featuredImage: '/src/assets/images/career_interview_meeting_1792032642390.jpg',
+    featuredImage: '/src/assets/images/career-interview-meeting.webp',
     imageAlt: 'Candidate and hiring manager in a high-level modern executive job interview discussion',
     imageConcept: 'Contemporary architectural office interior with two professionals in smart business attire engaged in a confident, friendly career conversation, bright floor-to-ceiling windows, natural soft lighting',
     tags: ['Interview Prep', 'Job Interview Questions', 'Career Advancement', 'Behavioral Interview', 'STAR Method'],
@@ -194,27 +194,27 @@ export const ARTICLES_PART_2: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: 'how-to-write-a-resume-that-gets-you-noticed',
+        targetSlug: 'how-to-write-resume',
         title: 'How to Write a Resume That Gets You Noticed',
         context: 'Align your interview talking points with the metrics highlighted on your resume.'
       },
       {
-        targetSlug: 'how-to-become-a-better-leader-at-work',
+        targetSlug: 'how-to-become-better-leader',
         title: 'How to Become a Better Leader at Work',
         context: 'Demonstrate leadership competencies during management-level interviews.'
       }
     ],
     seo: {
-      metaTitle: '15 Common Job Interview Questions and How to Answer Them',
-      metaDescription: 'Master the top 15 job interview questions with word-for-word scripts and the STAR method. Confidently answer weakness, behavioral, and salary questions.',
-      primaryKeyword: '15 common job interview questions and how to answer them',
-      secondaryKeywords: ['job interview questions and answers', 'behavioral interview STAR method', 'tell me about yourself interview', 'interview prep guide', 'salary expectation questions'],
-      suggestedSlug: '15-common-job-interview-questions-and-how-to-answer-them'
+      metaTitle: 'Job Interview Questions and Answers Guide | The Growth Desk',
+      metaDescription: 'Master common job interview questions and answers. Learn the STAR interview method and behavioral interview preparation techniques to stand out.',
+      primaryKeyword: 'job interview questions and answers',
+      secondaryKeywords: ['star interview method', 'behavioral interview preparation'],
+      suggestedSlug: 'job-interview-questions-and-answers'
     }
   },
   {
     id: '10-common-business-mistakes-entrepreneurs',
-    slug: '10-common-business-mistakes-new-entrepreneurs-should-avoid',
+    slug: 'common-business-mistakes-to-avoid',
     title: '10 Common Business Mistakes New Entrepreneurs Should Avoid at All Costs',
     subtitle: 'From underpricing and cash-flow blindspots to premature scaling, protect your startup capital and improve your survival odds.',
     excerpt: 'Over 65% of new businesses fail within their first five years—not because founders lack passion, but because they repeat predictable operational errors. Learn the 10 most common business mistakes and how to avoid them.',
@@ -222,11 +222,11 @@ export const ARTICLES_PART_2: Article[] = [
     subCategory: 'Business Strategy & Risk',
     readTime: '12 min read',
     publishDate: 'October 8, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: false,
     author: AUTHORS.elena,
-    featuredImage: '/src/assets/images/business_startup_budget_1792032643799.jpg',
+    featuredImage: '/src/assets/images/business-startup-budget.webp',
     imageAlt: 'Business financial audit ledger and strategy notes highlighting common entrepreneurship errors',
     imageConcept: 'Clean editorial flat-lay photo of an entrepreneur planning desk with financial ledger, modern tablet displaying clean growth charts, ceramic cup of black coffee, soft diffused natural daylight',
     tags: ['Entrepreneurship', 'Business Mistakes', 'Financial Planning', 'Startup Strategy', 'Pricing'],
@@ -361,27 +361,27 @@ export const ARTICLES_PART_2: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: 'how-to-start-a-small-business-with-little-money',
+        targetSlug: 'how-to-start-small-business',
         title: 'How to Start a Small Business With Little Money',
         context: 'Review our lean budgeting guidelines to prevent early overspending.'
       },
       {
-        targetSlug: 'time-management-strategies-for-busy-professionals',
+        targetSlug: 'time-management-strategies-for-professionals',
         title: 'Time Management Strategies for Busy Professionals',
         context: 'Overcome the founder bottleneck with time blocking and strategic delegation.'
       }
     ],
     seo: {
-      metaTitle: '10 Common Business Mistakes New Entrepreneurs Should Avoid',
-      metaDescription: 'Avoid the fatal errors that kill 65% of small businesses. Learn how to prevent cash-flow dryups, underpricing, premature scaling, and founder bottlenecks.',
-      primaryKeyword: '10 common business mistakes new entrepreneurs should avoid',
-      secondaryKeywords: ['small business mistakes', 'why startups fail', 'entrepreneur financial mistakes', 'startup cash flow management', 'business pricing strategy'],
-      suggestedSlug: '10-common-business-mistakes-new-entrepreneurs-should-avoid'
+      metaTitle: 'Common Business Mistakes to Avoid for New Entrepreneurs',
+      metaDescription: 'Avoid common business mistakes that derail early startups. Learn practical cash flow management and effective pricing strategies to protect your business.',
+      primaryKeyword: 'business mistakes to avoid',
+      secondaryKeywords: ['startup cash flow management', 'entrepreneur pricing pitfalls'],
+      suggestedSlug: 'common-business-mistakes-to-avoid'
     }
   },
   {
     id: '10-skills-to-improve-career-2027',
-    slug: '10-skills-to-learn-to-improve-your-career-in-2027',
+    slug: 'in-demand-career-skills',
     title: '10 In-Demand Skills to Learn to Accelerate Your Career in 2027',
     subtitle: 'From AI literacy and empirical data storytelling to strategic adaptability, future-proof your employability and outpace automation.',
     excerpt: 'The professional landscape is undergoing its fastest structural evolution in half a century. Discover the 10 high-leverage technical and interpersonal skills that will command premium compensation and career mobility over the coming decade.',
@@ -389,12 +389,12 @@ export const ARTICLES_PART_2: Article[] = [
     subCategory: 'Future of Work & Upskilling',
     readTime: '11 min read',
     publishDate: 'October 7, 2026',
-    updatedDate: 'October 14, 2026',
+    updatedDate: 'October 15, 2026',
     featured: false,
     trending: true,
     author: AUTHORS.priya,
-    featuredImage: '/src/assets/images/productivity_time_clock_1792032643000.jpg',
-    imageAlt: 'Professional workspace with strategy notebooks and modern technological devices symbolizing high-value skill mastery',
+    featuredImage: '/src/assets/images/productivity-time-clock.webp',
+    imageAlt: 'Professional desk with strategy notebooks and digital devices representing in-demand workplace skills',
     imageConcept: 'Minimalist designer desk setup featuring an elegant brass desk clock, structured productivity planner book with notes, warm oak wood desk, crisp morning shadows, editorial magazine photography',
     tags: ['Career Growth', 'Upskilling', 'AI Literacy', 'Leadership', 'Future of Work', 'Data Analysis'],
     introParagraphs: [
@@ -525,22 +525,22 @@ export const ARTICLES_PART_2: Article[] = [
     ],
     internalLinks: [
       {
-        targetSlug: 'how-to-build-a-career-development-plan-in-90-days',
+        targetSlug: 'how-to-build-career-development-plan',
         title: 'How to Build a Career Development Plan in 90 Days',
-        context: 'Turn these 10 skills into an actionable 90-day execution roadmap.'
+        context: 'Turn these in-demand skills into an actionable 90-day execution roadmap.'
       },
       {
-        targetSlug: 'how-to-become-a-better-leader-at-work',
+        targetSlug: 'how-to-become-better-leader',
         title: 'How to Become a Better Leader at Work',
         context: 'Discover how to apply influence without authority in everyday team dynamics.'
       }
     ],
     seo: {
-      metaTitle: '10 In-Demand Skills to Learn to Improve Your Career in 2027',
-      metaDescription: 'Discover the 10 most valuable career skills for 2027. Master AI literacy, data storytelling, influence without authority, and executive communication.',
-      primaryKeyword: '10 skills to learn to improve your career in 2027',
-      secondaryKeywords: ['future career skills', 'in demand skills 2027', 'AI literacy career', 'professional development skills', 'workplace skills upskilling'],
-      suggestedSlug: '10-skills-to-learn-to-improve-your-career-in-2027'
+      metaTitle: 'In-Demand Career Skills for Professional Growth | The Growth Desk',
+      metaDescription: 'Discover in-demand career skills to accelerate your growth. Learn workplace AI literacy and executive communication skills to future-proof your career.',
+      primaryKeyword: 'in demand career skills',
+      secondaryKeywords: ['workplace ai literacy', 'executive communication skills'],
+      suggestedSlug: 'in-demand-career-skills'
     }
   }
 ];
